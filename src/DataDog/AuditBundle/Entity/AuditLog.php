@@ -44,7 +44,7 @@ class AuditLog
     private $blame;
 
     /**
-     * @ORM\Column(type="json", nullable=true)
+     * @ORM\Column(type="text", nullable=true)
      */
     private $diff;
 
