@@ -23,7 +23,7 @@ DataDog\AuditBundle\Entity\AuditLog:
     tbl:
       length: 128
     diff:
-      type: text
+      type: json
       nullable: true
     loggedAt:
       type: datetime
